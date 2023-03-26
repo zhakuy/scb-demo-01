@@ -5,6 +5,7 @@ From the root folder run
 # Test
 ## jest
 "npm test"
+If no test are run, press 'a' to force run all the tests
 
 ## Cucumber
 "npm run test:cc"
