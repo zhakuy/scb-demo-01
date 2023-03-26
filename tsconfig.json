@@ -1,4 +1,18 @@
-{
+{  
+
+  "ts-node": {
+    // It is faster to skip typechecking.
+    // Remove if you want ts-node to do typechecking.
+    "transpileOnly": true,
+
+    "files": true,
+
+    "compilerOptions": {
+      "module": "CommonJS",
+      "moduleResolution": "node"     
+    }
+  },
+
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -18,7 +32,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",        
   },
   "include": [
     "src"

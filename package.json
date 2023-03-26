@@ -26,6 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --verbose",
+    "test:cc": "cucumber-js --format @cucumber/pretty-formatter",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -47,6 +48,13 @@
     ]
   },
   "devDependencies": {
-    "@types/ramda": "^0.28.23"
+    "@cucumber/cucumber": "^9.0.1",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "@types/ramda": "^0.28.23",
+    "global-jsdom": "^8.8.0",
+    "jsdom": "^21.1.1",
+    "react-icons": "^4.8.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "ts-node": "^10.9.1"
   }
 }
